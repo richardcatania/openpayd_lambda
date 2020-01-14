@@ -1,0 +1,8 @@
+Lambda Function
+---------------
+
+Functionality: The Lambda function will store all VPCs and Subnets found in the account for all regions
+
+Initial Config:
+  - Create a DynamoDB table called Vpc and set the Primary Key to VpcId
+  - Create a DynamoDB table called Subnet and set the Primary Key to SubnetId
